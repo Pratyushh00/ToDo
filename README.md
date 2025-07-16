@@ -37,28 +37,6 @@ As a frontend engineer, this project helped me dive deeper into full-stack engin
 
 ---
 
-## 📁 Folder Structure (Backend)
-server/
-├── controllers/
-│ └── todoController.js
-│ └── authController.js
-├── models/
-│ └── userModel.js
-│ └── todoModel.js
-├── routes/
-│ └── todoRoutes.js
-│ └── authRoutes.js
-├── middlewares/
-│ └── authMiddleware.js
-├── config/
-│ └── db.js
-│ └── redis.js
-├── .env
-├── server.js
-
-
----
-
 ## 🧪 API Endpoints
 
 ### Authentication
