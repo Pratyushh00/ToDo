@@ -21,6 +21,7 @@ As a frontend engineer, this project helped me dive deeper into full-stack engin
 
 ### Frontend:
 - React
+- Shadcn/ui
 - Axios
 - React Router DOM
 
