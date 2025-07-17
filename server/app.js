@@ -8,7 +8,7 @@ import cookieParser from 'cookie-parser';
 import cors from 'cors';
 
 const app = express();
-dotenv.config();
+dotenv.config({});
 connectDB(); // Connect Mongo DB
 
 // MiddleWare
@@ -26,6 +26,6 @@ app.use('/api/v1/todo', todoRouter);
 
 // Creating Server
 const port = process.env.PORT || 3000;
-app.listen(8000, () => {
+app.listen(port, () => {
     console.log(`Server listening at ${port}`);
 });

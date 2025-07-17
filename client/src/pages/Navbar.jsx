@@ -19,7 +19,7 @@ const Navbar = () => {
     }
     return (
         <div className='bg-gray-600'>
-            <div className='max-w-6xl flex item-center justify-between p-2'>
+            <div className='flex item-center justify-between p-2'>
                 <h1 className='font-bold text-lg'>ToDo App</h1>
                 <Button onClick={logOutHandler}>LogOut</Button>
             </div>
